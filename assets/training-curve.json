@@ -1,0 +1,91 @@
+{
+  "run": "fine_tune_v4",
+  "scope": "별도 분류기 실행. MobileNetV4 또는 6월 평가 모델의 곡선 아님.",
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 5.68336,
+      "val_loss": 4.63139
+    },
+    {
+      "epoch": 2,
+      "train_loss": 4.99262,
+      "val_loss": 3.79047
+    },
+    {
+      "epoch": 3,
+      "train_loss": 3.42556,
+      "val_loss": 3.83366
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.08112,
+      "val_loss": 2.51789
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.36831,
+      "val_loss": 3.11057
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.16126,
+      "val_loss": 1.61432
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.95604,
+      "val_loss": 1.58434
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.97692,
+      "val_loss": 1.26584
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.82706,
+      "val_loss": 1.28181
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.7568,
+      "val_loss": 1.53651
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.80249,
+      "val_loss": 1.55155
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.62011,
+      "val_loss": 1.24267
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.6797,
+      "val_loss": 1.41572
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.60668,
+      "val_loss": 1.7851
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.52993,
+      "val_loss": 1.45003
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.43194,
+      "val_loss": 1.67605
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.49884,
+      "val_loss": 1.68462
+    }
+  ]
+}
