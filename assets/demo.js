@@ -2,9 +2,9 @@
 const steps = [
   '외부 API의 취소여부가 빈 문자열로 반환돼 기존 요청의 상태가 검토 필요로 남았습니다.',
   '결과가 불명확한 동안 후속 요청을 차단했습니다. 동일 작업을 새 요청으로 재전송하지 않았습니다.',
-  '기존 식별자로 확정 결과를 재조회했습니다. 기록을 삭제하거나 새 식별자를 만들지 않았습니다.',
-  '응답 필드의 존재·타입 검사는 유지하고 빈 문자열 처리를 보완했습니다. 확정 결과와 감사 기록이 중복 반영되지 않는지 확인했습니다.',
-  '같은 유형의 응답을 회귀 테스트에 추가하고 버전별 배포·복구 경로를 보존했습니다. 별도 배포의 전체 481개 테스트 결과와 이 사건의 검증 범위는 구분합니다.'
+  '이전 요청번호로 실제 처리 결과를 다시 확인했습니다. 기록을 삭제하거나 새 요청을 보내지 않았습니다.',
+  '응답 항목이 존재하고 올바른 형식인지 검사하면서 취소 여부가 빈 값인 경우의 처리를 보완했습니다. 처리 결과와 확인 기록이 중복 저장되지 않는지 검사했습니다.',
+  '같은 응답 오류와 기존 기능을 다시 검사하고 수정한 버전과 되돌릴 이전 버전의 기록을 보관했습니다. 별도 배포의 전체 테스트 481개 통과는 이 사건 한 건의 검사 개수와 구분합니다.'
 ];
 const detail = document.getElementById('step-detail');
 if (detail) {
@@ -19,10 +19,10 @@ if (filter) {
   const target = document.getElementById('run-results');
   fetch('../assets/mobility-snapshot.json').then(r => {if (!r.ok) throw new Error('기록을 읽을 수 없습니다.'); return r.json();}).then(data => {
     const checks = [
-      ['입력·적재 행수', `${data.latest_run.input_rows} / ${data.latest_run.accepted_rows}`, 'PASS'],
-      ['dbt 검사', data.latest_run.dbt_status, data.latest_run.dbt_status],
-      ['게시 조건', `${data.latest_run.gate_passed} / ${data.latest_run.gate_total}`, 'PASS'],
-      ['게시 상태', data.latest_run.delivery_status, 'PASS']
+      ['수집·저장 행수', `${data.latest_run.input_rows} / ${data.latest_run.accepted_rows}`, 'PASS'],
+      ['데이터 품질 검사(dbt)', data.latest_run.dbt_status, data.latest_run.dbt_status],
+      ['분석에 쓸 자료의 확인 조건', `${data.latest_run.gate_passed} / ${data.latest_run.gate_total}`, 'PASS'],
+      ['사용 가능 여부', data.latest_run.delivery_status === 'READY' ? '사용 가능 (READY)' : data.latest_run.delivery_status, 'PASS']
     ];
     function draw() {
       const rows = checks.filter(row => filter.value === 'all' || row[2] === filter.value);
