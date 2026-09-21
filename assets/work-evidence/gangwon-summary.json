@@ -1,0 +1,1154 @@
+[
+  {
+    "city": "춘천시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3149.0,
+    "period_trips": 15745
+  },
+  {
+    "city": "춘천시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 5553.6,
+    "period_trips": 27768
+  },
+  {
+    "city": "춘천시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 3287.0,
+    "period_trips": 16435
+  },
+  {
+    "city": "춘천시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 5667.4,
+    "period_trips": 28337
+  },
+  {
+    "city": "춘천시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 4541.0,
+    "period_trips": 9082
+  },
+  {
+    "city": "춘천시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 9278.5,
+    "period_trips": 18557
+  },
+  {
+    "city": "춘천시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 4378.5,
+    "period_trips": 8757
+  },
+  {
+    "city": "춘천시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 10577.0,
+    "period_trips": 21154
+  },
+  {
+    "city": "원주시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3274.2,
+    "period_trips": 16371
+  },
+  {
+    "city": "원주시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 9358.4,
+    "period_trips": 46792
+  },
+  {
+    "city": "원주시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 3573.2,
+    "period_trips": 17866
+  },
+  {
+    "city": "원주시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 8867.0,
+    "period_trips": 44335
+  },
+  {
+    "city": "원주시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 4487.5,
+    "period_trips": 8975
+  },
+  {
+    "city": "원주시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 12983.0,
+    "period_trips": 25966
+  },
+  {
+    "city": "원주시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 4412.5,
+    "period_trips": 8825
+  },
+  {
+    "city": "원주시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 13577.5,
+    "period_trips": 27155
+  },
+  {
+    "city": "강릉시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3077.4,
+    "period_trips": 15387
+  },
+  {
+    "city": "강릉시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1397.4,
+    "period_trips": 6987
+  },
+  {
+    "city": "강릉시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2896.2,
+    "period_trips": 14481
+  },
+  {
+    "city": "강릉시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1235.4,
+    "period_trips": 6177
+  },
+  {
+    "city": "강릉시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 4613.0,
+    "period_trips": 9226
+  },
+  {
+    "city": "강릉시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 2264.5,
+    "period_trips": 4529
+  },
+  {
+    "city": "강릉시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 4656.0,
+    "period_trips": 9312
+  },
+  {
+    "city": "강릉시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2729.0,
+    "period_trips": 5458
+  },
+  {
+    "city": "동해시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1409.0,
+    "period_trips": 7045
+  },
+  {
+    "city": "동해시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 407.4,
+    "period_trips": 2037
+  },
+  {
+    "city": "동해시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1451.8,
+    "period_trips": 7259
+  },
+  {
+    "city": "동해시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 374.2,
+    "period_trips": 1871
+  },
+  {
+    "city": "동해시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1935.0,
+    "period_trips": 3870
+  },
+  {
+    "city": "동해시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 587.0,
+    "period_trips": 1174
+  },
+  {
+    "city": "동해시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1951.0,
+    "period_trips": 3902
+  },
+  {
+    "city": "동해시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 646.0,
+    "period_trips": 1292
+  },
+  {
+    "city": "태백시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 540.4,
+    "period_trips": 2702
+  },
+  {
+    "city": "태백시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 367.4,
+    "period_trips": 1837
+  },
+  {
+    "city": "태백시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 526.2,
+    "period_trips": 2631
+  },
+  {
+    "city": "태백시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 325.6,
+    "period_trips": 1628
+  },
+  {
+    "city": "태백시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 710.0,
+    "period_trips": 1420
+  },
+  {
+    "city": "태백시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 547.5,
+    "period_trips": 1095
+  },
+  {
+    "city": "태백시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 684.5,
+    "period_trips": 1369
+  },
+  {
+    "city": "태백시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 596.5,
+    "period_trips": 1193
+  },
+  {
+    "city": "속초시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3148.0,
+    "period_trips": 15740
+  },
+  {
+    "city": "속초시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 763.8,
+    "period_trips": 3819
+  },
+  {
+    "city": "속초시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2745.0,
+    "period_trips": 13725
+  },
+  {
+    "city": "속초시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 757.0,
+    "period_trips": 3785
+  },
+  {
+    "city": "속초시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 5774.0,
+    "period_trips": 11548
+  },
+  {
+    "city": "속초시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1397.0,
+    "period_trips": 2794
+  },
+  {
+    "city": "속초시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 5562.0,
+    "period_trips": 11124
+  },
+  {
+    "city": "속초시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2026.5,
+    "period_trips": 4053
+  },
+  {
+    "city": "삼척시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1123.8,
+    "period_trips": 5619
+  },
+  {
+    "city": "삼척시",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 470.0,
+    "period_trips": 2350
+  },
+  {
+    "city": "삼척시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1063.2,
+    "period_trips": 5316
+  },
+  {
+    "city": "삼척시",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 476.0,
+    "period_trips": 2380
+  },
+  {
+    "city": "삼척시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1570.5,
+    "period_trips": 3141
+  },
+  {
+    "city": "삼척시",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 716.0,
+    "period_trips": 1432
+  },
+  {
+    "city": "삼척시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1493.0,
+    "period_trips": 2986
+  },
+  {
+    "city": "삼척시",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 790.0,
+    "period_trips": 1580
+  },
+  {
+    "city": "홍천군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 2637.8,
+    "period_trips": 13189
+  },
+  {
+    "city": "홍천군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 2770.2,
+    "period_trips": 13851
+  },
+  {
+    "city": "홍천군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2728.0,
+    "period_trips": 13640
+  },
+  {
+    "city": "홍천군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2348.8,
+    "period_trips": 11744
+  },
+  {
+    "city": "홍천군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 4174.0,
+    "period_trips": 8348
+  },
+  {
+    "city": "홍천군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 5184.5,
+    "period_trips": 10369
+  },
+  {
+    "city": "홍천군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 4172.0,
+    "period_trips": 8344
+  },
+  {
+    "city": "홍천군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 5693.5,
+    "period_trips": 11387
+  },
+  {
+    "city": "횡성군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 2359.4,
+    "period_trips": 11797
+  },
+  {
+    "city": "횡성군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1636.8,
+    "period_trips": 8184
+  },
+  {
+    "city": "횡성군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2205.0,
+    "period_trips": 11025
+  },
+  {
+    "city": "횡성군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1457.8,
+    "period_trips": 7289
+  },
+  {
+    "city": "횡성군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3198.5,
+    "period_trips": 6397
+  },
+  {
+    "city": "횡성군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 2530.5,
+    "period_trips": 5061
+  },
+  {
+    "city": "횡성군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2935.0,
+    "period_trips": 5870
+  },
+  {
+    "city": "횡성군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2857.0,
+    "period_trips": 5714
+  },
+  {
+    "city": "영월군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 689.8,
+    "period_trips": 3449
+  },
+  {
+    "city": "영월군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1101.4,
+    "period_trips": 5507
+  },
+  {
+    "city": "영월군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 686.8,
+    "period_trips": 3434
+  },
+  {
+    "city": "영월군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1070.8,
+    "period_trips": 5354
+  },
+  {
+    "city": "영월군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 979.5,
+    "period_trips": 1959
+  },
+  {
+    "city": "영월군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1660.0,
+    "period_trips": 3320
+  },
+  {
+    "city": "영월군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1015.5,
+    "period_trips": 2031
+  },
+  {
+    "city": "영월군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1919.5,
+    "period_trips": 3839
+  },
+  {
+    "city": "평창군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1599.8,
+    "period_trips": 7999
+  },
+  {
+    "city": "평창군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1128.2,
+    "period_trips": 5641
+  },
+  {
+    "city": "평창군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1562.4,
+    "period_trips": 7812
+  },
+  {
+    "city": "평창군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 918.2,
+    "period_trips": 4591
+  },
+  {
+    "city": "평창군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 2555.5,
+    "period_trips": 5111
+  },
+  {
+    "city": "평창군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 2153.5,
+    "period_trips": 4307
+  },
+  {
+    "city": "평창군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2738.5,
+    "period_trips": 5477
+  },
+  {
+    "city": "평창군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2417.5,
+    "period_trips": 4835
+  },
+  {
+    "city": "정선군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 935.2,
+    "period_trips": 4676
+  },
+  {
+    "city": "정선군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 938.4,
+    "period_trips": 4692
+  },
+  {
+    "city": "정선군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 889.8,
+    "period_trips": 4449
+  },
+  {
+    "city": "정선군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 834.6,
+    "period_trips": 4173
+  },
+  {
+    "city": "정선군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1208.5,
+    "period_trips": 2417
+  },
+  {
+    "city": "정선군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1305.0,
+    "period_trips": 2610
+  },
+  {
+    "city": "정선군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1239.0,
+    "period_trips": 2478
+  },
+  {
+    "city": "정선군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1404.5,
+    "period_trips": 2809
+  },
+  {
+    "city": "철원군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 180.8,
+    "period_trips": 904
+  },
+  {
+    "city": "철원군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 2211.2,
+    "period_trips": 11056
+  },
+  {
+    "city": "철원군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 184.2,
+    "period_trips": 921
+  },
+  {
+    "city": "철원군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 2011.0,
+    "period_trips": 10055
+  },
+  {
+    "city": "철원군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 225.0,
+    "period_trips": 450
+  },
+  {
+    "city": "철원군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 4203.0,
+    "period_trips": 8406
+  },
+  {
+    "city": "철원군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 232.5,
+    "period_trips": 465
+  },
+  {
+    "city": "철원군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 3817.0,
+    "period_trips": 7634
+  },
+  {
+    "city": "화천군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 707.0,
+    "period_trips": 3535
+  },
+  {
+    "city": "화천군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 413.4,
+    "period_trips": 2067
+  },
+  {
+    "city": "화천군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 686.6,
+    "period_trips": 3433
+  },
+  {
+    "city": "화천군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 401.0,
+    "period_trips": 2005
+  },
+  {
+    "city": "화천군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 929.5,
+    "period_trips": 1859
+  },
+  {
+    "city": "화천군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 641.5,
+    "period_trips": 1283
+  },
+  {
+    "city": "화천군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 877.0,
+    "period_trips": 1754
+  },
+  {
+    "city": "화천군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 694.5,
+    "period_trips": 1389
+  },
+  {
+    "city": "양구군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 440.2,
+    "period_trips": 2201
+  },
+  {
+    "city": "양구군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 188.8,
+    "period_trips": 944
+  },
+  {
+    "city": "양구군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 392.2,
+    "period_trips": 1961
+  },
+  {
+    "city": "양구군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 180.8,
+    "period_trips": 904
+  },
+  {
+    "city": "양구군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 532.0,
+    "period_trips": 1064
+  },
+  {
+    "city": "양구군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 261.0,
+    "period_trips": 522
+  },
+  {
+    "city": "양구군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 537.5,
+    "period_trips": 1075
+  },
+  {
+    "city": "양구군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 312.5,
+    "period_trips": 625
+  },
+  {
+    "city": "인제군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1607.4,
+    "period_trips": 8037
+  },
+  {
+    "city": "인제군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 854.0,
+    "period_trips": 4270
+  },
+  {
+    "city": "인제군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1754.2,
+    "period_trips": 8771
+  },
+  {
+    "city": "인제군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 711.8,
+    "period_trips": 3559
+  },
+  {
+    "city": "인제군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3159.0,
+    "period_trips": 6318
+  },
+  {
+    "city": "인제군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1763.0,
+    "period_trips": 3526
+  },
+  {
+    "city": "인제군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 3377.5,
+    "period_trips": 6755
+  },
+  {
+    "city": "인제군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1972.5,
+    "period_trips": 3945
+  },
+  {
+    "city": "고성군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 1600.4,
+    "period_trips": 8002
+  },
+  {
+    "city": "고성군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 299.6,
+    "period_trips": 1498
+  },
+  {
+    "city": "고성군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 1563.8,
+    "period_trips": 7819
+  },
+  {
+    "city": "고성군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 275.6,
+    "period_trips": 1378
+  },
+  {
+    "city": "고성군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 3248.0,
+    "period_trips": 6496
+  },
+  {
+    "city": "고성군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 549.0,
+    "period_trips": 1098
+  },
+  {
+    "city": "고성군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 3099.5,
+    "period_trips": 6199
+  },
+  {
+    "city": "고성군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 757.0,
+    "period_trips": 1514
+  },
+  {
+    "city": "양양군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 2370.6,
+    "period_trips": 11853
+  },
+  {
+    "city": "양양군",
+    "period": "평일",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 748.2,
+    "period_trips": 3741
+  },
+  {
+    "city": "양양군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 2654.6,
+    "period_trips": 13273
+  },
+  {
+    "city": "양양군",
+    "period": "평일",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 564.6,
+    "period_trips": 2823
+  },
+  {
+    "city": "양양군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도내",
+    "daily_trips": 4479.5,
+    "period_trips": 8959
+  },
+  {
+    "city": "양양군",
+    "period": "주말",
+    "direction": "유입",
+    "region": "도외",
+    "daily_trips": 1313.5,
+    "period_trips": 2627
+  },
+  {
+    "city": "양양군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도내",
+    "daily_trips": 4958.5,
+    "period_trips": 9917
+  },
+  {
+    "city": "양양군",
+    "period": "주말",
+    "direction": "유출",
+    "region": "도외",
+    "daily_trips": 1482.0,
+    "period_trips": 2964
+  }
+]
