@@ -3,13 +3,22 @@
 [프로젝트별 상세 자료 열기](https://zodia8393.github.io/career-portfolio/)
 
 실무의 분석 과정·판단·결과와 개인 프로젝트의 실행 기록을 정리한 정적 사이트입니다.
-이력서와 제출용 포트폴리오는 이 저장소에 포함하지 않습니다.
+공개 지원자료 PDF는 `applications/gear2/`에서 제공합니다. 회사 원천 자료와 비공개 검토 기록은 포함하지 않습니다.
 
 ## 처음 보는 분께
 
 1. **분석 결과와 업무 활용:** [강원 방문통행 분석](https://zodia8393.github.io/career-portfolio/gangwon/#impact)에서 실제 데이터 규모·비교 기준·결과 활용을 확인할 수 있습니다.
 2. **코드 구성과 검증:** [교통카드 전처리](https://zodia8393.github.io/career-portfolio/migration/#code-design)는 입력 설정과 공통 계산의 분리, [CCTV 평가](https://zodia8393.github.io/career-portfolio/cctv/#code-design)는 공개 JSON 검산 예시를 설명합니다.
 3. **실제 공개 소스와 테스트:** [MobilityFlow README](https://github.com/zodia8393/mobility-flow-platform#코드-읽는-순서)에서 입력 처리 → DB 적재 → 품질 검사 순으로 코드를 읽을 수 있습니다.
+
+홈의 프로젝트 카드에서 분석 결과·검증 근거로 바로 이동합니다. 다른 프로젝트는 각 페이지의 선택 목록으로 전환할 수 있습니다.
+
+- [강원 시군별 분석표](https://zodia8393.github.io/career-portfolio/gangwon/#interactive-analysis)
+- [교통카드 검증 기록·실험 설계](https://zodia8393.github.io/career-portfolio/migration/#work-experiment)
+- [Metabase 대시보드 바로가기](https://zodia8393.github.io/career-portfolio/#dashboards)
+- [지원자료 PDF](https://zodia8393.github.io/career-portfolio/#applications)
+
+별도 중간 페이지 없이 프로젝트 본문에서 분석표와 검증 기록을 볼 수 있습니다. 기존 `/work/`와 하위 HTML 주소는 새 위치로 연결되어 이전 PDF·QR 링크도 유지됩니다.
 
 이 저장소는 **설명·시각자료를 제공하는 정적 포트폴리오**입니다. 회사 프로젝트의 전체 원본 코드를 공개한 저장소가 아닙니다. 설명용 코드와 실제 공개 소스를 구분해 표시합니다.
 
@@ -40,6 +49,8 @@ index.html              프로젝트 목록과 핵심 근거 바로가기
 <프로젝트명>/index.html  업무 활용·코드 구성·타임라인·검증 조건
 assets/                 공통 스타일·동작 데모·공개 집계 JSON·도식
 reports/                기존 A4 세로 상세 보고서
+applications/gear2/     공개 지원자료 PDF
+work/                   이전 QR 주소 연결·공개 집계 검산 스크립트
 ```
 
 웹 상단의 업무 활용·코드 구성 설명은 제출 후 보강한 내용입니다. 기존 보고서와 제출 PDF는 유지했습니다. PDF 번호·쪽수는 공통 제출본 기준이며 회사별 제출본의 순서와 다를 수 있습니다.
