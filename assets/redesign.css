@@ -85,7 +85,10 @@
   .case-document.web .note { font-size:13px!important; color:var(--muted); }
   .case-document.web .result-gallery { padding:42px 0!important; border-top:0!important; }
   .case-document.web .result-gallery figure { background:white; padding:24px; border:1px solid var(--line); border-radius:3px; }
-  .case-document.web .result-gallery svg { max-height:520px; }
+  .case-document.web figure img,.case-document.web .full-map { display:block; width:100%; height:auto; max-height:none; object-fit:contain; }
+  .case-document.web figure svg,.case-document.web .result-gallery svg { display:block; width:100%; height:auto; max-height:none; }
+  .case-document.web .full-image-link { display:block; width:100%; }
+  .case-document.web .speed-map>svg { max-width:440px; margin:20px auto; }
   .case-document.web .process-details { padding:20px 24px; border:1px solid var(--line); background:white; }
   .process-details>summary { cursor:pointer; color:var(--accent); font-size:15px; font-weight:650; }
   .process-details[open]>summary { margin-bottom:35px; }
