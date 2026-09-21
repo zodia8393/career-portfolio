@@ -3,7 +3,7 @@
 [프로젝트별 상세 자료 열기](https://zodia8393.github.io/career-portfolio/)
 
 실무의 분석 과정·판단·결과와 개인 프로젝트의 실행 기록을 정리한 정적 사이트입니다.
-공개 지원자료 PDF는 `applications/gear2/`에서 제공합니다. 회사 원천 자료와 비공개 검토 기록은 포함하지 않습니다.
+이력서·자기소개서·지원처별 포트폴리오 PDF는 공개 배포하지 않습니다. 회사 원천 자료와 비공개 검토 기록도 포함하지 않습니다.
 
 ## 처음 보는 분께
 
@@ -16,7 +16,6 @@
 - [강원 시군별 분석표](https://zodia8393.github.io/career-portfolio/gangwon/#interactive-analysis)
 - [교통카드 검증 기록·실험 설계](https://zodia8393.github.io/career-portfolio/migration/#work-experiment)
 - [Metabase 대시보드 바로가기](https://zodia8393.github.io/career-portfolio/#dashboards)
-- [지원자료 PDF](https://zodia8393.github.io/career-portfolio/#applications)
 
 별도 중간 페이지 없이 프로젝트 본문에서 분석표와 검증 기록을 볼 수 있습니다. 기존 `/work/`와 하위 HTML 주소는 새 위치로 연결되어 이전 PDF·QR 링크도 유지됩니다.
 
@@ -49,7 +48,6 @@ index.html              프로젝트 목록과 핵심 근거 바로가기
 <프로젝트명>/index.html  업무 활용·코드 구성·타임라인·검증 조건
 assets/                 공통 스타일·동작 데모·공개 집계 JSON·도식
 reports/                기존 A4 세로 상세 보고서
-applications/gear2/     공개 지원자료 PDF
 work/                   이전 QR 주소 연결·공개 집계 검산 스크립트
 ```
 
@@ -83,3 +81,4 @@ MobilityFlow의 데이터 수집 자체를 재현하려면
 
 GitHub Pages의 `main` 브랜치 `/` 경로로 게시합니다. `.nojekyll`을 사용하며 별도 빌드·서버·의존성이 필요하지 않습니다.
 각 보고서 PDF와 QR 링크는 동일 프로젝트의 고정 경로로 연결됩니다.
+지원처별 서류 경로인 `applications/`는 Git 추적·배포에서 제외합니다. 프로젝트별 공개 보고서 `reports/`와 구분합니다.
