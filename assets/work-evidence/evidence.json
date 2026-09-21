@@ -165,7 +165,7 @@
     "scope": "원주 2023.10.16 하루 결측보정 · 7일 이력 사용 · step1/step2",
     "repetitions_per_language": 2,
     "source": "transit-comparison.json",
-    "reason": "사용자가 지정한 초기 R 보관본과 현재 Python의 교차순서 실행. 실제 업무 A/B와 구분."
+    "reason": "R 보관본과 현재 Python의 교차순서 실행. 실제 업무 A/B와 구분."
   },
   "workplace_ab": {
     "status": "not_started",

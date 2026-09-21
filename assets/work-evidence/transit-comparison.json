@@ -5,7 +5,7 @@
   "scope": "원주 2023.10.16 하루 결측보정 · 7일 이력 사용 · step1/step2",
   "experiment_type": "동일 입력의 오프라인 교차순서 비교 · 실제 업무 무작위 A/B 아님",
   "baseline": {
-    "label": "초기 R 보관본 · 사용자 지정",
+    "label": "R 보관본",
     "filename": "원주시 결측보정 코드.R",
     "sha256": "015956b32b6b048d9e1b4b7f8df0c70fa9128b1789047e416336b5a4978d01c8",
     "user_confirmed": true,
