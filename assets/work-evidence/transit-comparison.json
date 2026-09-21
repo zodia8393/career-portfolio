@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-21T13:49:15.594172+09:00",
+  "status": "completed",
+  "scope": "원주 2023.10.16 하루 결측보정 · 7일 이력 사용 · step1/step2",
+  "experiment_type": "동일 입력의 오프라인 교차순서 비교 · 실제 업무 무작위 A/B 아님",
+  "baseline": {
+    "label": "초기 R 보관본 · 사용자 지정",
+    "filename": "원주시 결측보정 코드.R",
+    "sha256": "015956b32b6b048d9e1b4b7f8df0c70fa9128b1789047e416336b5a4978d01c8",
+    "user_confirmed": true,
+    "earliest_version_verified": false,
+    "provenance": "사용자가 2026.09.21 legacy_r를 초기 코드 위치로 지정. 해당 보관본을 해시로 고정해 비교. 최초 작성 시점은 별도 버전 이력으로 검증하지 않음."
+  },
+  "conditions": {
+    "image_id": "sha256:09720b523a48d1cc2dbf40ed9951d8ff20ce6d0ab07dd222103e5388b9f96680",
+    "cpus": 2,
+    "memory_gib": 24,
+    "timeout_seconds": 900,
+    "order": [
+      "R",
+      "Python",
+      "Python",
+      "R"
+    ],
+    "timing": "입력 읽기·계산·CSV 저장 포함. 산출물 검증 제외.",
+    "limitations": "각 2회, 한 날짜, 공유 호스트, OS 파일 캐시 초기화 없음. 모집단 추론·유의확률·인과효과 추정 없음."
+  },
+  "results": {
+    "r": {
+      "n": 2,
+      "seconds": [
+        161.62,
+        162.78
+      ],
+      "median_seconds": 162.2,
+      "max_rss_kib": [
+        9003852,
+        9003300
+      ],
+      "median_rss_gib": 8.586479187011719
+    },
+    "python": {
+      "n": 2,
+      "seconds": [
+        429.56,
+        430.91
+      ],
+      "median_seconds": 430.235,
+      "max_rss_kib": [
+        2096540,
+        2096648
+      ],
+      "median_rss_gib": 1.9994678497314453
+    }
+  },
+  "runs": [
+    {
+      "run": 1,
+      "language": "r",
+      "seconds": 161.62,
+      "max_rss_kib": 9003852,
+      "comparisons": [
+        {
+          "stage": "step1",
+          "rows": 26616,
+          "columns": 107,
+          "equal": true
+        },
+        {
+          "stage": "step2",
+          "rows": 26521,
+          "columns": 22,
+          "equal": true
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "language": "python",
+      "seconds": 429.56,
+      "max_rss_kib": 2096540,
+      "comparisons": [
+        {
+          "stage": "step1",
+          "rows": 26616,
+          "columns": 107,
+          "equal": true
+        },
+        {
+          "stage": "step2",
+          "rows": 26521,
+          "columns": 22,
+          "equal": true
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "language": "python",
+      "seconds": 430.91,
+      "max_rss_kib": 2096648,
+      "comparisons": [
+        {
+          "stage": "step1",
+          "rows": 26616,
+          "columns": 107,
+          "equal": true
+        },
+        {
+          "stage": "step2",
+          "rows": 26521,
+          "columns": 22,
+          "equal": true
+        }
+      ]
+    },
+    {
+      "run": 4,
+      "language": "r",
+      "seconds": 162.78,
+      "max_rss_kib": 9003300,
+      "comparisons": [
+        {
+          "stage": "step1",
+          "rows": 26616,
+          "columns": 107,
+          "equal": true
+        },
+        {
+          "stage": "step2",
+          "rows": 26521,
+          "columns": 22,
+          "equal": true
+        }
+      ]
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "workplace_ab": {
+    "status": "not_started",
+    "observations": 0,
+    "reason": "담당자 수작업 시간·작업 배정 데이터 미확보"
+  }
+}

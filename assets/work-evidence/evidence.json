@@ -160,9 +160,12 @@
   },
   "recheck_scope": "보존된 R/Python 결측보정 CSV 14개 재대조. 기존 기준대로 NA·빈칸과 숫자 표기를 정규화하고 중복을 보존해 전체 셀 비교. 코드 전체 재실행은 아님.",
   "offline_comparison": {
-    "status": "not_run",
-    "r_runtime_available": false,
-    "reason": "동일 환경의 R/Python 실행과 측정 전. 실행시간·개선율 없음."
+    "status": "completed",
+    "r_runtime_available": true,
+    "scope": "원주 2023.10.16 하루 결측보정 · 7일 이력 사용 · step1/step2",
+    "repetitions_per_language": 2,
+    "source": "transit-comparison.json",
+    "reason": "사용자가 지정한 초기 R 보관본과 현재 Python의 교차순서 실행. 실제 업무 A/B와 구분."
   },
   "workplace_ab": {
     "status": "not_started",
