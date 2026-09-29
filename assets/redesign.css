@@ -220,3 +220,33 @@
   .narrative-steps>li>strong { font-size:12px; }
   .implementation-detail { border:0; padding:0; }
 }
+
+
+/* Keep observed findings, derived insights, and proposed use visibly distinct. */
+.interpretation-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.interpretation-item { min-width:0; padding:22px; background:white; border:1px solid #dce3e2; border-top:3px solid #006f73; }
+.case-document.web .interpretation-item h3,.case-document.web .insight-list h3 { font-size:18px; line-height:1.75; margin:0 0 12px; color:#162d3b; }
+.case-document.web .interpretation-item p,.case-document.web .insight-list p { margin:0 0 14px; }
+.interpretation-item .evidence-link { display:inline-block; font-size:12px; line-height:1.8; }
+.insight-list { padding:0; margin:0; list-style:none; }
+.insight-list>li { padding:20px 24px; margin:0 0 16px; background:#e8efed; border-left:3px solid #006f73; }
+.applied-work { padding:18px 22px; margin:0 0 28px; border:1px solid #ccd9d6; background:#e8efed; }
+.applied-work>span { font-size:12px; font-weight:700; color:#006f73; }
+.case-document.web .applied-work>p { margin:8px 0 0; }
+.case-document.web .application-label { margin:0 0 10px; font-size:19px; }
+.case-document.web .application-note { font-size:13px; color:#566873; }
+.application-table th:nth-child(1) { width:21%; }
+.application-table th:nth-child(2) { width:42%; }
+@media screen and (max-width:1100px) {
+  .interpretation-grid { grid-template-columns:1fr; }
+}
+@media screen and (max-width:650px) {
+  .interpretation-item,.insight-list>li,.applied-work { padding:18px; }
+  .case-document.web .interpretation-item h3,.case-document.web .insight-list h3 { font-size:17px; }
+}
+@media print {
+  .interpretation-grid { display:block; }
+  .interpretation-item,.insight-list>li,.applied-work { break-inside:avoid; padding:10px; margin:0 0 12px; }
+  .case-document.web .interpretation-item h3,.case-document.web .insight-list h3 { font-size:12px; }
+  .interpretation-item .evidence-link { font-size:9px; }
+}
