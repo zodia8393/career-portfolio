@@ -1,4 +1,4 @@
-/* Screen portfolio: editorial overview, result-first case studies, full evidence. */
+/* Screen portfolio: editorial overview, data-to-results case studies, full evidence. */
 @media screen {
   :root { --ink:#162d3b; --muted:#566873; --accent:#006f73; --paper:#f6f7f4; --line:#dce3e2; }
   html { scroll-padding-top:90px; }
@@ -177,3 +177,46 @@
   @media(prefers-reduced-motion:reduce) { * { scroll-behavior:auto!important; transition:none!important; } }
 }
 @media print { .site-bar,.skip-link { display:none; } .decision-grid { display:block; } .decision-grid span { font-weight:bold; } .comparison-track { display:none; } }
+
+
+/* Data → acquisition → rationale → preparation → implementation → results. */
+.reading-order { line-height:1.9; }
+.source-table caption { text-align:left; font-size:13px; color:#566873; padding:0 0 12px; }
+.source-table { width:100%; table-layout:fixed; border-collapse:collapse; }
+.source-table th:nth-child(1) { width:29%; }
+.source-table th:nth-child(2) { width:34%; }
+.source-table td,.source-table th { vertical-align:top; overflow-wrap:anywhere; }
+.narrative-steps { list-style:none; padding:0; margin:22px 0; counter-reset:narrative; }
+.narrative-steps>li { counter-increment:narrative; position:relative; padding:0 0 20px 38px; margin:0 0 20px; border-bottom:1px solid #dce3e2; }
+.narrative-steps>li:last-child { border-bottom:0; padding-bottom:0; margin-bottom:0; }
+.narrative-steps>li:before { content:counter(narrative); position:absolute; left:0; top:2px; width:24px; height:24px; text-align:center; line-height:24px; border-radius:50%; background:#e6eeeb; color:#006f73; font-size:12px; }
+.narrative-steps>li>strong { display:block; color:#162d3b; font-size:17px; line-height:1.7; }
+.case-document.web .narrative-steps p { margin:8px 0 0; }
+.case-document.web .data-origin { color:#006f73; font-weight:600; }
+.implementation-detail { border:1px solid #dce3e2; padding:18px 22px; background:white; }
+.implementation-detail>summary { color:#006f73; cursor:pointer; }
+.implementation-detail[open]>summary { margin-bottom:20px; }
+.document-nav nav .nav-extra { font-size:12px; }
+@media screen {
+  .case-document.web .reading-order { font-size:14px; color:#566873; margin:24px 0 0; }
+  .source-table td,.source-table th { font-size:14px; line-height:1.9; padding:14px; }
+  .source-table td:first-child { font-weight:600; }
+  .case-document.web .validation-section .technical-appendix { margin-top:24px; }
+}
+@media screen and (max-width:650px) {
+  .source-table,.source-table tbody,.source-table tr,.source-table td { display:block; width:100%; }
+  .source-table thead { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); }
+  .source-table tr { margin:0 0 14px; border:1px solid #dce3e2; background:white; }
+  .source-table td { border:0; padding:10px 14px; box-sizing:border-box; }
+  .source-table td:before { content:attr(data-label); display:block; color:#006f73; font-size:11px; font-weight:600; margin-bottom:4px; }
+  .narrative-steps>li { padding-left:32px; }
+  .narrative-steps>li>strong { font-size:16px; }
+  .implementation-detail { padding:16px; }
+}
+@media print {
+  .reading-order { display:none; }
+  .source-table th,.source-table td { font-size:9px; }
+  .narrative-steps>li { break-inside:avoid; margin-bottom:12px; padding-bottom:12px; }
+  .narrative-steps>li>strong { font-size:12px; }
+  .implementation-detail { border:0; padding:0; }
+}
