@@ -43,6 +43,19 @@
 .case-document .scroll { max-width:100%; overflow-x:auto; }
 .case-document table { width:100%; }
 select:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid #ae762c; outline-offset:4px; }
+.simulation-clips { display:grid; gap:28px; margin:28px 0; }
+.simulation-clip,.simulation-still { margin:0; padding:18px; background:#fff; border:1px solid #ccd9d6; }
+.simulation-clip h3 { margin:0 0 14px; font-size:20px; }
+.simulation-clip video,.simulation-still img { display:block; width:100%; height:auto; background:#edf2f0; }
+.simulation-clip video:focus-visible { outline:3px solid #ae762c; outline-offset:4px; }
+.simulation-clip figcaption,.simulation-still figcaption { display:flex; flex-wrap:wrap; gap:8px 18px; padding-top:14px; color:#566873; font-size:13px; line-height:1.7; }
+.simulation-clip figcaption span { flex-basis:100%; }
+.simulation-clip figcaption a { color:#006f73; }
+.simulation-still { margin-top:26px; }
+.case-document.web .simulation-print-poster { display:none; }
+.simulation-thumbnail { display:block; position:relative; margin:14px 0 18px; overflow:hidden; border:1px solid #ccd9d6; }
+.simulation-thumbnail img { display:block; width:100%; aspect-ratio:3/2; object-fit:cover; }
+.simulation-thumbnail span { position:absolute; bottom:10px; left:10px; padding:7px 11px; background:#123340; color:white; font-size:12px; }
 @media(max-width:1100px) { .case-index #recent-work .case-cards { grid-template-columns:repeat(2,minmax(0,1fr)); } }
 @media(max-width:760px) {
   .case-index #recent-work .case-cards { grid-template-columns:1fr; }
@@ -59,6 +72,9 @@ select:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible 
   .site-bar nav { max-width:230px; }
 }
 @media print {
+  .simulation-clip video { display:none; }
+  .case-document.web .simulation-print-poster { display:block; width:100%; height:auto; }
+  .simulation-clip,.simulation-still { break-inside:avoid; }
   .comparison-controls { display:none; }
   .comparison-panel,.followup-metrics>div { break-inside:avoid; }
   .comparison-panel { padding:12px; }
