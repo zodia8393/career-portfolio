@@ -58,10 +58,14 @@
   },
   "los": {
     "city_routes": 63,
-    "village_routes": 164,
-    "total_routes": 227,
+    "village_routes": 160,
+    "total_routes": 223,
+    "valid_route_days": 828,
+    "blank_route_days": 64,
     "new_route_days_expected": 16,
-    "new_route_days_observed": 15
+    "new_route_days_observed": 15,
+    "new_routes_in_current_workbook": false,
+    "scope": "현재 보존된 수식수정 Excel 기준. 신규 4노선 조회 이력은 별도."
   },
   "gangwon_followup": {
     "observation_year": 2025,

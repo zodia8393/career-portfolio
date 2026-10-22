@@ -257,3 +257,16 @@ body.research-book { margin:0; color:var(--book-ink); background:var(--book-pape
   .research-book .research-paper .limitations { break-inside:avoid; }
   .paper-kicker,.paper-author,.paper-footer { font-size:9pt; }
 }
+/* Source-backed purpose and scope, shared across the twelve manuscripts. */
+.source-review-label { color:#64765d; font-size:.78rem!important; font-weight:700; letter-spacing:.04em; }
+.source-citations { white-space:nowrap; font-size:.8em; }
+.source-citations a { color:#4d6847; text-decoration:underline; text-underline-offset:3px; }
+.research-book .research-paper .scope-note { color:#6b7068; font-size:.86rem!important; line-height:1.7; }
+.research-book .research-paper .scope-table th[scope="row"] { width:132px; min-width:100px; vertical-align:top; white-space:normal; }
+.research-book .research-paper .scope-table td { min-width:220px; }
+.source-register { border-top:2px solid #53664a; padding-top:20px; margin-bottom:36px; }
+.source-register ol { padding-left:24px; }
+.source-register li { margin:0 0 20px; padding-left:4px; scroll-margin-top:90px; overflow-wrap:anywhere; }
+.source-register li>span { display:block; color:#74776f; font-size:.84rem; margin-top:4px; }
+.source-register li p { margin:6px 0!important; }
+.source-addition { margin-bottom:24px; }
