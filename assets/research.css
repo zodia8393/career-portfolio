@@ -257,7 +257,7 @@ body.research-book { margin:0; color:var(--book-ink); background:var(--book-pape
   .research-book .research-paper .limitations { break-inside:avoid; }
   .paper-kicker,.paper-author,.paper-footer { font-size:9pt; }
 }
-/* Source-backed purpose and scope, shared across the twelve manuscripts. */
+/* Source-backed purpose and scope, shared across the manuscripts. */
 .source-review-label { color:#64765d; font-size:.78rem!important; font-weight:700; letter-spacing:.04em; }
 .source-citations { white-space:nowrap; font-size:.8em; }
 .source-citations a { color:#4d6847; text-decoration:underline; text-underline-offset:3px; }
@@ -270,3 +270,31 @@ body.research-book { margin:0; color:var(--book-ink); background:var(--book-pape
 .source-register li>span { display:block; color:#74776f; font-size:.84rem; margin-top:4px; }
 .source-register li p { margin:6px 0!important; }
 .source-addition { margin-bottom:24px; }
+
+/* Review automation: implementation and recorded user feedback. */
+.review-figure-label { color:var(--book-accent,#526749); font-size:11px!important; font-weight:700; letter-spacing:.09em; }
+.review-flow { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; list-style:none; padding:0; margin:24px 0; }
+.review-flow li { border:1px solid var(--book-line,#dce0d6); padding:16px 12px; background:#f7f8f3; }
+.review-flow li>span { display:block; font-size:11px; color:#5e7257; margin-bottom:12px; }
+.review-flow li>b { display:block; font-size:14px; }
+.research-book .research-paper .review-flow li p { font-size:12px!important; margin-bottom:0; }
+.review-loop { padding:16px; border-left:3px solid #637b57; background:#edf1e8; font-size:14px; }
+.research-book .research-paper .review-loop p { font-size:12px!important; margin:8px 0 0; }
+.review-proof-bars { margin:26px 0; }
+.review-proof-bars>div { display:grid; grid-template-columns:115px minmax(0,1fr) 50px; gap:14px; align-items:center; margin:14px 0; font-size:13px; }
+.review-proof-bars i { display:block; height:23px; background:#536d49; border-radius:2px; }
+.review-proof-bars>div+div i { background:#91a581; }
+.review-proof-equation { padding:14px; background:#f3f4ed; }
+.review-feedback-figure details { margin:12px 0!important; }
+.review-feedback-figure details>div { padding-top:12px; }
+.research-book .research-paper .review-feedback-figure details p { font-size:14px!important; }
+@media(max-width:650px) {
+ .review-flow { grid-template-columns:1fr 1fr; }
+ .review-proof-bars>div { grid-template-columns:94px minmax(0,1fr) 39px; gap:8px; font-size:12px; }
+ .review-loop { font-size:12px; }
+}
+@media print {
+ .review-flow { grid-template-columns:repeat(4,minmax(0,1fr)); }
+ .review-proof-bars { print-color-adjust:exact; }
+ .research-book .research-paper.web .review-feedback-figure { break-inside:auto; }
+}

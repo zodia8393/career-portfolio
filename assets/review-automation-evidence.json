@@ -1,0 +1,158 @@
+{
+  "project": "review-automation",
+  "reviewed_on": "2026-10-22",
+  "data_kind": "sanitized_historical_observations",
+  "live_service_check": false,
+  "backfill": {
+    "date": "2026-09-04",
+    "reviews": 255,
+    "existing_replies": 223,
+    "text_feature_cache_entries": 438,
+    "source_ref": "backfill"
+  },
+  "posting_snapshot": {
+    "date": "2026-09-04",
+    "newly_posted_in_batch": 31,
+    "previous_smoke_posted": 1,
+    "db_posted": 32,
+    "remote_verified": 32,
+    "source_ref": "batch",
+    "scope": "해당 일괄 등록 단계의 상태. 이후 누적 건수와 다름"
+  },
+  "approved_review": {
+    "date": "2026-09-21",
+    "posted": 1,
+    "failed": 0,
+    "remote_verified": true,
+    "source_ref": "approved",
+    "remaining_unprocessed": 0,
+    "remaining_scope": "당시 DB의 2026-09-06 포함 이후 활성 리뷰"
+  },
+  "source_register": [
+    {
+      "id": "readme",
+      "title": "Review Reply Automation README",
+      "locator": "구현 범위·로컬 실행·NAVER 등록 설정·API 목록",
+      "type": "프로젝트 기술 문서",
+      "supports": "수집·스타일 참조·품질 검사·검수·등록의 목적과 단일 매장 범위."
+    },
+    {
+      "id": "pipeline",
+      "title": "리뷰 수집·생성·등록 구현 및 회귀 테스트",
+      "locator": "domain.py / pipeline.py / ai.py / db.py / naver.py 및 tests/",
+      "type": "보존 코드",
+      "supports": "리뷰 식별, 상태 전이, 초안 검사·재작성, 날짜 제한, 기존 답글 보존, 등록 확인."
+    },
+    {
+      "id": "similarity",
+      "title": "문자열 유사도와 참고 답글 검색 구현",
+      "locator": "embeddings.py: text_features, cosine_similarity, SimilarityService",
+      "type": "보존 코드",
+      "supports": "문자 3-gram 빈도·코사인 유사도·내용 해시 캐시. 별도 임베딩 모델 학습이 아니다."
+    },
+    {
+      "id": "backfill",
+      "title": "AWS 배포와 cloud backfill",
+      "locator": "2026.09.04 작업기록 C · cloud 데이터",
+      "type": "당시 수행 기록",
+      "supports": "리뷰 255건·기존 답글 223건·특징 캐시 438개 및 수집 완료."
+    },
+    {
+      "id": "batch",
+      "title": "미답글 리뷰 일괄 등록 결과",
+      "locator": "2026.09.04 작업기록 P · 결과·검증",
+      "type": "당시 수행 기록",
+      "supports": "신규 31건, 시험 등록 포함 POSTED 32건, remote_verified 32건. 보류 항목은 별도 유지."
+    },
+    {
+      "id": "optimized",
+      "title": "재작성·등록 최적화",
+      "locator": "2026.09.21 작업기록 E · 변경·검증·배포",
+      "type": "당시 수행 기록",
+      "supports": "검사 통과 초안 재사용, 길이 부족분 보완, 검수 표지 유지, 기존 답글 보존, 72개 회귀 검증."
+    },
+    {
+      "id": "approved",
+      "title": "승인된 보류 리뷰 1건 등록",
+      "locator": "2026.09.21 작업기록 G · 결과 및 검증",
+      "type": "당시 수행 기록",
+      "supports": "승인된 1건 posted=1, failed=0, 원격 확인 성공. 이미 수집된 날짜 범위 내 미처리 상태 0건."
+    },
+    {
+      "id": "style",
+      "title": "답글 말투와 품질 기준 조정",
+      "locator": "2026.09.04 작업기록 R · 수행 명령·변경 내용·검증",
+      "type": "사용자 요청·개선 기록",
+      "supports": "상투어·반복 감사·과장 표현·긴 문장 제한, 빈 리뷰의 사실 추측 방지, 생성 검증 통과."
+    },
+    {
+      "id": "length",
+      "title": "답글 권장 분량과 절대 상한 분리",
+      "locator": "2026.09.04 작업기록 N · 사용자 의도·변경·검증",
+      "type": "사용자 요청·개선 기록",
+      "supports": "450자 소폭 초과 허용 요청, 500자 상한 도입, 기존 실패한 484자 초안의 검증 통과."
+    },
+    {
+      "id": "collection",
+      "title": "미처리 리뷰 수집 누락 정정",
+      "locator": "2026.09.21 작업기록 C · 사용자 지적·원인·수정",
+      "type": "사용자 피드백·수정 기록",
+      "supports": "신규 10건을 전체 미답변으로 오인한 보고 정정, 공유 ID 집합에 의한 수집 조기 종료 수정."
+    },
+    {
+      "id": "feedback",
+      "title": "탈락 사유를 반영한 자동 재작성",
+      "locator": "2026.09.21 작업기록 D · 수행 명령·구현·검증",
+      "type": "사용자 요청·구현 기록",
+      "supports": "구체적 수정 지시, 이전 실패 초안 복원, 시도별 검사 결과 저장, 수집 수정 운영 반영."
+    },
+    {
+      "id": "date-scope",
+      "title": "9월 6일 이후 리뷰로 처리 범위 제한",
+      "locator": "2026.09.21 작업기록 F · 입력·판단·검증",
+      "type": "사용자 요청·실행 기록",
+      "supports": "요청 날짜 범위만 처리, 이전 날짜 신규 등록 0건, 검수 보류 1건을 사용자 승인 전까지 유지."
+    }
+  ],
+  "interpretation": [
+    "관측 시점과 대상이 달라 수집·등록 건수로 전체 전환율을 계산하지 않는다.",
+    "32건 원격 확인은 등록 상태 대조이며 AI 답글 품질 정확도를 뜻하지 않는다.",
+    "사용자 요구의 반영 사례이며 만족도·매출·처리시간 절감률을 측정한 결과는 아니다."
+  ],
+  "optimization": {
+    "date": "2026-09-21",
+    "tests_passed": 72,
+    "dependency_warnings": 1,
+    "source_ref": "optimized"
+  },
+  "feedback": [
+    {
+      "topic": "말투",
+      "change": "반복·과장·긴 문장 검사와 빈 리뷰의 사실 추측 방지",
+      "source_ref": "style"
+    },
+    {
+      "topic": "분량",
+      "change": "450자 권장·500자 절대 상한 분리",
+      "draft_characters": 484,
+      "draft_validation_passed": true,
+      "source_ref": "length"
+    },
+    {
+      "topic": "수집 누락",
+      "change": "신규 수집 수와 전체 잔여 수 구분, 기존 ID 집합 복사로 조기 종료 방지",
+      "source_ref": "collection"
+    },
+    {
+      "topic": "재작성",
+      "change": "실패 초안·검사 결과·구체적 수정 지시 저장 및 재실행 복원",
+      "source_ref": "feedback"
+    },
+    {
+      "topic": "처리 범위",
+      "change": "2026-09-06 포함 이후 요청 범위만 처리",
+      "earlier_date_new_posts_on_20260921": 0,
+      "source_ref": "date-scope"
+    }
+  ]
+}
