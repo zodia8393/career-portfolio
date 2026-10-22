@@ -1,0 +1,68 @@
+/* Shared casebook extension. Recorded metrics retain their units and scope. */
+.comparison-panel { padding:26px; background:#fff; border:1px solid #ccd9d6; }
+.comparison-panel h3 { margin-top:8px; font-size:22px; }
+.comparison-controls { display:flex; gap:18px; flex-wrap:wrap; margin:24px 0; }
+.comparison-controls label { display:grid; gap:8px; color:#354f5a; font-size:14px; min-width:130px; }
+.comparison-controls select { padding:10px 12px; font:inherit; color:#162d3b; border:1px solid #8ca7a1; border-radius:3px; background:white; }
+#overlap-summary { padding:18px 0; color:#006f73; }
+#overlap-summary strong { font-size:21px; line-height:1.6; }
+#overlap-summary p { margin:5px 0; font-variant-numeric:tabular-nums; }
+.record-bars { display:grid; gap:18px; margin:18px 0 26px; }
+.record-bars>div { display:grid; grid-template-columns:90px minmax(0,1fr) 82px; gap:12px; align-items:center; font-size:13px; }
+.record-track { background:#e8efed; height:25px; }
+.record-track i { display:block; height:100%; background:#7a8c94; min-width:2px; }
+.record-bars>div:nth-child(2) i { background:#006f73; }
+.record-bars b { text-align:right; font-variant-numeric:tabular-nums; }
+.tradeoff { border-left:3px solid #ae762c; background:#faf1e1; padding:18px 22px; font-size:14px!important; }
+.quality-total { display:flex; gap:12px; align-items:baseline; margin:25px 0; }
+.quality-total strong { font-size:43px; color:#006f73; font-variant-numeric:tabular-nums; }
+.quality-total span { color:#566873; }
+.quality-track { display:flex; height:26px; margin:20px 0; }
+.quality-track span { background:#006f73; }
+.quality-track i { background:#ba853b; }
+.pipeline { display:grid; grid-template-columns:1fr 1fr; list-style:none; gap:12px; padding:0; }
+.pipeline li { padding:18px; border:1px solid #dce3e2; }
+.pipeline b,.pipeline span { display:block; }
+.pipeline span { color:#566873; font-size:13px; margin-top:8px; }
+.implementation-steps { padding-left:25px; }
+.implementation-steps li { padding:0 0 12px 12px; }
+.implementation-steps li::marker { color:#006f73; font-weight:bold; }
+.implementation-steps h3 { font-size:19px; margin:16px 0 6px; }
+.evidence-list { padding-left:23px; color:#354f5a; line-height:1.95; }
+.evidence-list li { padding:0 0 16px 5px; }
+.comparison-panel details>summary { cursor:pointer; padding:12px 0; color:#006f73; }
+.followup-metrics { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:25px 0; }
+.followup-metrics>div { padding:20px; border:1px solid #ccd9d6; background:white; }
+.followup-metrics strong { display:block; font-size:32px; color:#006f73; }
+.followup-metrics span { display:block; font-size:13px; color:#566873; line-height:1.7; }
+.case-index #recent-work .case-cards { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.case-index #recent-work .card-actions { margin-top:auto; }
+.case-index #recent-work .card-type { text-align:right; }
+.case-index #recent-work .case-card:first-child { border-top:3px solid #006f73; }
+.case-index .index-nav .button + .button { color:#006f73; background:transparent; border:1px solid #a5bdb7; }
+.case-document .scroll { max-width:100%; overflow-x:auto; }
+.case-document table { width:100%; }
+select:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible { outline:3px solid #ae762c; outline-offset:4px; }
+@media(max-width:1100px) { .case-index #recent-work .case-cards { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:760px) {
+  .case-index #recent-work .case-cards { grid-template-columns:1fr; }
+  .comparison-panel { padding:18px; }
+  .comparison-panel h3 { font-size:20px; }
+  .record-bars>div { grid-template-columns:70px minmax(0,1fr) 72px; gap:7px; font-size:12px; }
+  .comparison-controls { gap:12px; }
+  .comparison-controls label { min-width:110px; }
+  .quality-total { flex-wrap:wrap; gap:4px 12px; }
+  .quality-total strong { font-size:36px; }
+  .followup-metrics { grid-template-columns:1fr; }
+  .pipeline { grid-template-columns:1fr; }
+  .tradeoff { padding:15px; }
+  .site-bar nav { max-width:230px; }
+}
+@media print {
+  .comparison-controls { display:none; }
+  .comparison-panel,.followup-metrics>div { break-inside:avoid; }
+  .comparison-panel { padding:12px; }
+  .record-track,.quality-track { print-color-adjust:exact; -webkit-print-color-adjust:exact; }
+  .pipeline,.followup-metrics { display:block; }
+  .case-document .scroll { overflow:visible; }
+}

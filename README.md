@@ -99,3 +99,19 @@ GitHub Pages의 `main` 브랜치 `/` 경로로 게시합니다. `.nojekyll`을 �
 지원처별 서류 경로인 `applications/`는 Git 추적·배포에서 제외합니다. 프로젝트별 공개 보고서 `reports/`와 구분합니다.
 
 결과 해석·인사이트·활용 방안은 기존 공개 수치와 작업 기록에 근거합니다. 강원 일평균과 교통카드 실행 비교, CCTV 차종별 지표는 공개 JSON으로 대조했습니다. 실제 업무 반영 내용과 제안 단계의 활용을 구분하며, 추가 제안의 효과를 수행 성과로 기재하지 않습니다.
+
+<!-- recent-cases:start -->
+## PC·서버 작업 통합 · 2026.10.22
+
+기존 7개 사례에 아래 5개 상세 페이지를 추가했습니다. 기존 PDF·QR 주소·시군별 분석표는 유지합니다. 강원 페이지에는 춘천·강릉의 2025년 3개 관측기간·204개 방문코스와 2023년 분석 제외 사유를 보강했습니다.
+
+- [DRT 수요·경로 시뮬레이션](https://zodia8393.github.io/career-portfolio/drt/): 승용·승합 / 버스 · 1–5대 비교 · 실제 노선 15개의 격자 교차 검증
+- [한강버스 이용 흐름 분석](https://zodia8393.github.io/career-portfolio/hangang/): 333,366개 이용구간 · Excel 11시트 · CSV 10종 · 2,054개 분석 격자
+- [화성시 버스 혼잡도·LOS 검증](https://zodia8393.github.io/career-portfolio/los/): 시내 63 + 마을 164 = 227개 노선 · 신규 4개 노선 중 15/16 노선·일 자료 확보
+- [PC·서버 공통 실행 도구](https://zodia8393.github.io/career-portfolio/automation/): 3지역 × 2차종 경로 대조 · 기존 최종본 33개 내용 지문 보존
+- [CatalogForge 웹 데이터 수집](https://zodia8393.github.io/career-portfolio/catalog/): 복구 훈련 1,000/1,000 성공 · 중단 작업 17/17 회수 · 유실·중복 0
+
+공개 수치·조건은 `assets/recent-evidence.json`에서 확인합니다. DRT 차종·대수 선택은 고정된 실행 기록의 비교이며 경로를 새로 계산하지 않습니다. 원천 데이터, 내부 주소·인증정보, 지원처별 서류는 추가하지 않았습니다.
+
+새 페이지는 별도 PDF 다운로드 대신 브라우저 인쇄를 지원합니다. 기존 서버 생성기의 `build.py --site-only`에 원고·공통 스타일·증분 생성기를 연결해 재생성 후에도 유지합니다.
+<!-- recent-cases:end -->

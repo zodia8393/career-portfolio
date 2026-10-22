@@ -1,0 +1,75 @@
+{
+  "reviewed_at": "2026-10-22",
+  "drt_overlap": {
+    "recorded_at": "2026-10-16",
+    "unit": "km",
+    "vehicles": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "passenger": {
+      "label": "승용·승합",
+      "before": [
+        1.805,
+        5.316,
+        7.515,
+        8.834
+      ],
+      "after": [
+        0.13,
+        0.13,
+        0.277,
+        2.228
+      ]
+    },
+    "bus": {
+      "label": "버스",
+      "before": [
+        1.805,
+        5.932,
+        7.846,
+        8.893
+      ],
+      "after": [
+        0.13,
+        0.13,
+        0.729,
+        2.228
+      ]
+    },
+    "scope": "두촌면 고정 입력·17개 경유점·최저30km/h 모의 조건. 차량 간 공유 물리 구간의 고유 길이. 전역 최적 증명 아님.",
+    "tradeoff": "승용·승합 4대의 최대 모의 종료시간은 기존 2195.298초에서 4645.53초로 증가. 시간 균등을 목표로 두지 않음."
+  },
+  "hangang": {
+    "total": 333366,
+    "confirmed": 327679,
+    "unresolved": 5687,
+    "excel_sheets": 11,
+    "csv_files": 10,
+    "analysis_cells": 2054,
+    "missing_dates": [
+      "2026-07-15",
+      "2026-07-18",
+      "2026-07-19",
+      "2026-07-23"
+    ]
+  },
+  "los": {
+    "city_routes": 63,
+    "village_routes": 164,
+    "total_routes": 227,
+    "new_route_days_expected": 16,
+    "new_route_days_observed": 15
+  },
+  "gangwon_followup": {
+    "observation_year": 2025,
+    "observation_periods": 3,
+    "chuncheon_courses": 20,
+    "gangneung_courses": 184,
+    "total_courses": 204,
+    "excel_sheets": 4,
+    "uses_2023": false
+  }
+}
