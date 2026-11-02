@@ -75,5 +75,86 @@
     "total_courses": 204,
     "excel_sheets": 4,
     "uses_2023": false
+  },
+  "gangwon_meeting_followup": {
+    "reviewed_at": "2026-11-02",
+    "observation_year": 2025,
+    "observation_periods": [
+      [
+        "2025-01-26",
+        "2025-02-01"
+      ],
+      [
+        "2025-10-03",
+        "2025-10-09"
+      ],
+      [
+        "2025-10-13",
+        "2025-10-19"
+      ]
+    ],
+    "uses_2023": false,
+    "selected_attractions": {
+      "춘천": 4,
+      "강릉": 5
+    },
+    "tourism_regions": {
+      "춘천": 11,
+      "강릉": 12
+    },
+    "tourism_movement_contributions": {
+      "춘천": 2019,
+      "강릉": 19346
+    },
+    "tourism_movement_total": 21365,
+    "city_entries": {
+      "춘천": 112268,
+      "강릉": 84390
+    },
+    "city_entries_total": 196658,
+    "outside_gangwon_entries": {
+      "춘천": 71285,
+      "강릉": 26283
+    },
+    "outside_gangwon_total": 97568,
+    "observed_journeys": 95459,
+    "both_cities_journeys": 126,
+    "indirect_entry_journeys": 4727,
+    "origin_city_rows": 1501,
+    "od_top_n": 8,
+    "od_shown_counts": {
+      "춘천": 48688,
+      "강릉": 12440
+    },
+    "od_other_counts": {
+      "춘천": 22597,
+      "강릉": 13843
+    },
+    "od_common_max_count": 19450,
+    "ppt_slides": 27,
+    "excel_sheets": 8,
+    "tests_passed": 50,
+    "unit_note": "도시 진입·관측 여정·관광지 소속별 기여는 서로 다른 집계 단위. 고유 관광객 수가 아님.",
+    "od_note": "최초 관측 출발시군과 도착도시 대표점의 연결. 실제 도로 경로 아님. 강원·미상·제주 출발 제외.",
+    "tmap_id_note": "원천 한 건은 날짜+주행ID. 앱 종료·재시작 시 ID 유지 여부는 미확인.",
+    "presentation": "춘천강릉_회의후속_4개분석",
+    "presentation_pages": {
+      "regions": [
+        2,
+        6
+      ],
+      "roads": [
+        10,
+        11
+      ],
+      "city_sequences": [
+        22,
+        23
+      ],
+      "city_flows": [
+        24,
+        25
+      ]
+    }
   }
 }
