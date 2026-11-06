@@ -298,3 +298,8 @@ body.research-book { margin:0; color:var(--book-ink); background:var(--book-pape
  .review-proof-bars { print-color-adjust:exact; }
  .research-book .research-paper.web .review-feedback-figure { break-inside:auto; }
 }
+.planner-gallery { display:grid; grid-template-columns:minmax(0,2fr) minmax(0,1fr); gap:20px; align-items:start; }
+.research-book .research-paper.web .planner-gallery figure { margin:20px 0; min-width:0; }
+.planner-screen img { display:block; width:100%; height:auto; }
+.planner-screen>a { display:block; }
+@media(max-width:800px) { .planner-gallery { display:block; } .planner-gallery .planner-phone { max-width:390px; margin-left:auto!important; margin-right:auto!important; } }

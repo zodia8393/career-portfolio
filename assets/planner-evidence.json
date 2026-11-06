@@ -1,0 +1,82 @@
+{
+  "project": "JM/My 개인·공유 플래너",
+  "reviewed_at": "2026-11-06",
+  "scope": "개인 프로젝트. 공개 이미지는 격리 환경의 예시 데이터다.",
+  "stack": [
+    "Python",
+    "FastAPI",
+    "Jinja2",
+    "HTMX",
+    "Tailwind CSS",
+    "JavaScript",
+    "SQLite",
+    "SSE",
+    "PWA",
+    "Fly.io"
+  ],
+  "features": [
+    "할 일·반복 일정·캘린더",
+    "업무일지·통계",
+    "날짜 변경·되돌리기",
+    "부분 갱신·변경 알림"
+  ],
+  "changes": [
+    {
+      "area": "날짜 변경",
+      "change": "기대 날짜와 현재 값을 비교해 동시 변경을 409로 거절. 날짜와 변경 이력을 같은 트랜잭션에 저장.",
+      "checks": [
+        "날짜 없음→오늘·지정일",
+        "되돌리기",
+        "미저장 입력 보존",
+        "저장 실패·충돌 응답"
+      ]
+    },
+    {
+      "area": "칸반 갱신",
+      "change": "My 앱에서 부분 응답의 교체 대상을 body에서 #mainContent로 변경.",
+      "checks": [
+        "드래그 후 상태 저장",
+        "메뉴 유지"
+      ]
+    },
+    {
+      "area": "통계 차트",
+      "change": "HTMX 이동 시 Chart.js 준비 후 초기화.",
+      "checks": [
+        "부분 이동 후 차트 표시"
+      ]
+    }
+  ],
+  "recorded_verification": {
+    "date": "2026-11-06",
+    "isolated_browser": {
+      "desktop_screens": 21,
+      "mobile_screens": 6,
+      "dark_screens": 6,
+      "javascript_errors": 0,
+      "horizontal_overflow": false
+    },
+    "production": {
+      "application_tables_compared": 29,
+      "changed_or_missing_rows": 0,
+      "scope": "My 배포 후 백업과 대조. 로그인 화면·접근 제한·정적 파일 확인. 인증 후 기능은 같은 패키지의 격리 환경에서 검증."
+    }
+  },
+  "limits": [
+    "현재 운영 상태를 보여주는 모니터가 아니다.",
+    "실사용자 수·시간 절감·일정 관리 효과는 측정하지 않았다.",
+    "공개 저장소의 기본 구조와 최신 화면 개선의 반영 시점은 다를 수 있다."
+  ],
+  "screenshots": [
+    {
+      "file": "planner-desktop.png",
+      "viewport": "1440px PC",
+      "data": "예시 데이터"
+    },
+    {
+      "file": "planner-mobile.png",
+      "viewport": "390px 모바일",
+      "data": "예시 데이터"
+    }
+  ]
+}
