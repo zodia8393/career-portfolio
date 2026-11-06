@@ -303,3 +303,6 @@ body.research-book { margin:0; color:var(--book-ink); background:var(--book-pape
 .planner-screen img { display:block; width:100%; height:auto; }
 .planner-screen>a { display:block; }
 @media(max-width:800px) { .planner-gallery { display:block; } .planner-gallery .planner-phone { max-width:390px; margin-left:auto!important; margin-right:auto!important; } }
+.service-link { margin:16px 0; }
+.service-link>a { display:inline-block; font-weight:700; text-underline-offset:4px; }
+.research-book .service-link>p { margin:5px 0 0; color:var(--book-muted); font-size:12px; line-height:1.7; }
